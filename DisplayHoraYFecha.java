@@ -47,7 +47,7 @@ public class DisplayHoraYFecha
     }
 
     public String getMomento(){
-        return hora.getDisplayValue() + "-" + minutos.getDisplayValue() + "" + dia.getValorDelDisplay() + "/" + mes.getValorDelDisplay() + "/" + anio.getValorDelDisplay();
+        return hora.getDisplayValue() + ":" + minutos.getDisplayValue() + " " + dia.getValorDelDisplay() + "/" + mes.getValorDelDisplay() + "/" + anio.getValorDelDisplay();
 
     }
 }
